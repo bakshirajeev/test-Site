@@ -1,0 +1,12 @@
+<manifest xmlns:pcf="http://schemas.microsoft.com/PowerApps/2020/ControlManifest">
+  <control namespace="Sample" constructor="VisualComponent" version="1.0.0" display-name-key="VisualComponent_Display_Name" description-key="VisualComponent_Desc">
+    <resources>
+      <code path="index.ts" order="1" />
+      <css path="style.css" order="2" />
+      <html path="index.html" order="3" />
+      <library name="ChartJS" version="3.9.1" path="https://cdn.jsdelivr.net/npm/chart.js" />
+    </resources>
+    <property name="dataSet" display-name-key="DataSet_Display_Name" description-key="DataSet_Desc" of-type="DataSet" usage="bound"/>
+    <property name="visualType" display-name-key="VisualType_Display_Name" description-key="VisualType_Desc" of-type="SingleLine.Text" usage="input" default-value="donut"/>
+  </control>
+</manifest>

@@ -1,0 +1,12 @@
+{
+  "name": "visual-pcf",
+  "version": "1.0.0",
+  "description": "Sample PCF component for custom visuals",
+  "scripts": {
+    "build": "pcf-scripts build"
+  },
+  "devDependencies": {
+    "pcf-scripts": "latest",
+    "typescript": "^4.0.0"
+  }
+}
