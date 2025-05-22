@@ -7,7 +7,7 @@ This directory contains a sample PowerApps Component Framework (PCF) control tha
 - Heatmap (matrix)
 - Line chart
 
-The control uses a dataset input for label/value pairs and an input property `visualType` to choose the desired visual.
+The control uses a dataset input for `label`/`value` pairs and an input property `visualType` to choose the desired visual. A small example dataset is provided in [`sample-data.csv`](./sample-data.csv) to illustrate the expected column names.
 
 
 Each dataset record must include a `label` field (string) and a `value` field (number). For example:
