@@ -5,6 +5,9 @@
   "scripts": {
     "build": "pcf-scripts build"
   },
+  "dependencies": {
+    "chartjs-chart-matrix": "^1.1.0"
+  },
   "devDependencies": {
     "pcf-scripts": "latest",
     "typescript": "^4.0.0"

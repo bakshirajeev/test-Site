@@ -1,4 +1,6 @@
 import {IInputs, IOutputs} from "./generated/ManifestTypes";
+// Ensure the matrix chart plugin registers with Chart.js during build
+import "chartjs-chart-matrix";
 
 export class VisualComponent implements ComponentFramework.StandardControl<IInputs, IOutputs> {
     private container: HTMLDivElement;

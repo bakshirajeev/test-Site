@@ -5,6 +5,8 @@
       <css path="style.css" order="2" />
       <html path="index.html" order="3" />
       <library name="ChartJS" version="3.9.1" path="https://cdn.jsdelivr.net/npm/chart.js" />
+      <!-- Plugin providing the matrix chart type -->
+      <library name="ChartJSMatrix" version="1.1.0" path="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@1.1.0/dist/chartjs-chart-matrix.min.js" />
     </resources>
     <property name="dataSet" display-name-key="DataSet_Display_Name" description-key="DataSet_Desc" of-type="DataSet" usage="bound"/>
     <property name="visualType" display-name-key="VisualType_Display_Name" description-key="VisualType_Desc" of-type="SingleLine.Text" usage="input" default-value="donut"/>
